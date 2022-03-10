@@ -1,4 +1,4 @@
-module github.com/grafana/tanka
+module github.com/Nashluffy/tanka
 
 go 1.17
 
@@ -24,7 +24,6 @@ require (
 	k8s.io/apimachinery v0.22.2
 	sigs.k8s.io/yaml v1.3.0
 )
-replace github.com/grafana/tanka => github.com/Nashluffy/tanka v0.21.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -47,3 +46,5 @@ require (
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	k8s.io/klog/v2 v2.40.1 // indirect
 )
+
+replace github.com/grafana/tanka => github.com/Nashluffy/tanka v0.21
