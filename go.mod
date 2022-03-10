@@ -1,4 +1,4 @@
-module github.com/Nashluffy/tanka
+module github.com/grafana/tanka
 
 go 1.17
 
@@ -47,4 +47,4 @@ require (
 	k8s.io/klog/v2 v2.40.1 // indirect
 )
 
-replace github.com/grafana/tanka => github.com/Nashluffy/tanka v0.21
+replace github.com/grafana/tanka => ./
