@@ -1,4 +1,4 @@
-module github.com/Nashluffy/tanka
+module github.com/grafana/tanka
 
 go 1.17
 
@@ -31,7 +31,6 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logr/logr v1.2.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/grafana/tanka v0.0.0-00010101000000-000000000000
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
@@ -48,4 +47,3 @@ require (
 	k8s.io/klog/v2 v2.40.1 // indirect
 )
 
-replace github.com/grafana/tanka v0.0.0-00010101000000-000000000000 => github.com/Nashluffy/tanka v0.21.0
