@@ -24,7 +24,7 @@ require (
 	k8s.io/apimachinery v0.22.2
 	sigs.k8s.io/yaml v1.3.0
 )
-replace github.com/grafana/tanka => github.com/Nashluffy/tanka v0.20.0
+replace github.com/grafana/tanka => github.com/Nashluffy/tanka v0.21.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
